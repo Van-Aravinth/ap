@@ -1,0 +1,23 @@
+/* styles.css */
+.FlexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 65%;
+    background-color: #25581d;
+    background-image:url('C:\Users\LENOVO\Documents\FDP\an\food.jpg');
+    height: 80vh;
+    overflow: auto;
+    flex-direction: column-reverse;
+}
+
+.FlexContainer div {
+    width: 500px;
+    height: 500px;
+    margin: 15px;
+    background-color: rgb(230, 173, 190);
+    font-size: 200%;
+   
+}
